@@ -1,0 +1,5 @@
+n=int(input("enter a number"))
+if n==str(n)[::-1]:
+    print("The given number is palindrome")
+else:
+    print("The given number is not palindrome")
